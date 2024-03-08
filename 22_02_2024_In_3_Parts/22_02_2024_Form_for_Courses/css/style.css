@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.table {
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+.colgroup_main{
+    /* background:rgb(107, 221, 101) */
+    background: lightgreen;
+
+}
+
+.colgroup{
+    background:Khaki;
+    text-align: center;
+}
+
+/* .th {
+    text-size-adjust: 100px;
+} */
+
+.result{
+    width: 50%;
+    margin: 4% auto;
+    text-align: center;
+    border: 3px solid red;
+    /* position: relative; */
+}
+
+/* .discount_result {
+    width: 50%;
+    margin: 4% auto;
+    text-align: center;
+    border: 3px solid red;  
+} */
+
+.result_bar{
+    width: 0%;
+    background-color: gray;
+    /* position: absolute; */
+}
+
+
+.discount, .discount_result{
+    /* text-size-adjust: 32px; */
+    color: goldenrod;
+    font-size: medium;
+    width: 50%;
+    margin: 4% auto;
+    text-align: center;
+    
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 85%;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.discount{
+    border: 3px solid red;
+}
+
+
+
+
+
+.hover:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+/* .td {
+    text-align: center;
+} */
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* #progressBar {
+    width: 50%;
+    background-color: lightgreen;
+} */
+
+
+
+
+
+
+/* 
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #04AA6D;
+  } */

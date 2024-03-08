@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for Courses</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+      <table class="table">
+        <colgroup>
+          <tr  class="colgroup_main">
+          <th>MODUL</th>
+          <th>НАИМЕНОВАНИЕ КУРСА</th>
+          <th>НАИМЕНОВАНИЕ КУРСА</th>
+          <th>НАИМЕНОВАНИЕ КУРСА</th>
+          <th>СТОИМОСТЬ КУРСОВ ($)</th>
+        </tr>
+        <tr class="colgroup">
+          <th>Frontend</th>
+          <td class="hover html" onclick="click_html()">HTML</td>
+          <td class="hover php" onclick="click_php()">PHP</td>
+          <td class="hover js" onclick="click_js()">JavaScript</td>
+          <td class="result_frontend">0</td>
+        </tr>
+        <tr class="colgroup">
+          <th>Backend</th>
+          <td class="hover java" onclick="click_java()">Java</td>
+          <td class="hover algo" onclick="click_algo()">Algorithms</td>
+          <td class="hover pm" onclick="click_pm()">Project Management</td>
+          <td class="result_backend">0</td>
+        </tr>
+        <tr class="colgroup">
+            <th>Design</th>
+            <td class="hover painting" onclick="click_painting()">Painting</td>
+            <td class="hover d2d" onclick="click_d2d()">2D Modeling</td>
+            <td class="hover d3d" onclick="click_d3d()">3D Modeling</td>
+            <td class="result_design">0</td>
+          </tr>
+        </colgroup>
+      </table>
+
+        <div class="result">СТОИМОСТЬ ЗАКАЗА</div>
+        <div class="discount_result"><h1></h1></div>
+
+      <div class="discount">
+        <h1>
+          ВНИМАНИЕ!
+        </h1>
+        <h1>
+          ТОЛЬКО ДО 1 АПРЕЛЯ!
+        </h1>
+        <h1>
+          ПРИ ЗАКАЗЕ СВЫШЕ 3000$
+        </h1>
+        <h1>
+          СКИДКА 30%!!!
+        </h1>
+      </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

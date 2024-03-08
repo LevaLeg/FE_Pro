@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.zoom__image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery {
+    margin: 50px 50px auto;
+}
